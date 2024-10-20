@@ -1,0 +1,42 @@
+html{
+    margin:0;
+    padding:0;
+    background-color: #f2ebe2;
+    display:flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+nav a{
+    text-decoration: none;
+    color: #ff5a77;
+}
+nav a:hover{
+    color: #ff5a7861;
+}
+
+table{
+    height:450px;
+    width:850px;
+}
+
+table, td{
+    border-collapse: collapse;
+}
+
+.red{
+    background-color: red;
+}
+
+.white{
+    background-color: white;
+}
+
+.stars{
+    position: absolute;
+}
